@@ -18,15 +18,29 @@
   justify-content: center;
   align-items: center;
   gap: 120px;
+  list-style: none;  
   
-  
+ 
 
 
 }
 
+.menu-services a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.menu-services a:hover {
+ color: #00aaff;
+}
+
+
+
+
 .title {
-  margin-top: 45px;
+  margin-top: 35px;
   margin-left: 45px;
+  padding: 20px;
 }
 .first{
 
@@ -34,10 +48,17 @@
   align-items: center;
   background: #fff;
   margin-bottom: 30px;
-  padding: 20px;
+  padding: 60px;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin: 15px;
+  margin-top: 50px;
+    
+  
 }
+
+ 
+
 
 
 
@@ -79,6 +100,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap; /* deixa responsivo */
+  padding-top: 60px;
 }
 
 .footer-container p {

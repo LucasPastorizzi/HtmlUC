@@ -1,0 +1,178 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+
+.Logoo img{
+    width: 150px;
+    height: auto;
+    margin: 20px;
+    border-radius: 40px;   
+    border-color: black;
+    
+
+   
+
+}
+
+.menu a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    text-decoration: none;
+    color: black;
+    margin-top: -250px;
+    
+}
+.menu{
+
+    display: flex;
+    justify-content: center;
+    gap: 450px;
+    list-style: none;
+    
+    
+}
+.title{
+display: flex;
+justify-content: center;
+padding: 80px;
+
+}
+
+.first{
+
+   display: flex;
+  align-items: center;
+  background: #fff;
+  margin-bottom: 30px;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin: 15px;
+  margin-top: 50px;
+    
+  
+}
+.first.reverse {
+  flex-direction: row-reverse;
+  
+}
+
+
+.conteudo1 {
+    width: 50%;
+    padding: 20px;  
+        
+}
+
+.conteudo1 h2{
+    padding: 15px;
+    padding-bottom: 45px;
+}
+
+.first.reverse .conteudo1 h2{
+    text-align: right;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Formulário */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 220px;
+}
+
+.formulario label {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.formulario select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.formulario button {
+  margin-top: 10px;
+  padding: 10px;
+  background: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.3s;
+}
+
+.formulario button:hover {
+  background: #0056b3;
+}
+
+/* Resultado */
+.resultado {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #fafafa;
+  font-size: 16px;
+  color: #333;
+}
+
+
+footer {
+  background-color: #ffffff;   /* fundo escuro */
+  color: #000000;             /* texto branco */
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* deixa responsivo */
+  padding-top: 60px;
+}
+
+.footer-container p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer-nav a {
+  color: #000000;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+  color: #00aaff; /* muda cor no hover */
+}
+
